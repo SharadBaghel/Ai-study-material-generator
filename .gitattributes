@@ -1,0 +1,17 @@
+# Ignore these folders from stats (commonly auto-generated or vendor code)
+node_modules/** linguist-vendored
+.next/** linguist-vendored
+build/** linguist-vendored
+out/** linguist-vendored
+dist/** linguist-vendored
+public/** linguist-vendored
+drizzle/** linguist-vendored  # if your drizzle-generated folder is large
+
+# Highlight specific languages
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.css linguist-language=CSS
+*.html linguist-language=HTML
+*.json linguist-language=JSON
